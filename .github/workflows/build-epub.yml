@@ -1,0 +1,22 @@
+name: Build EPUB
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create EPUB
+        run: |
+          cd book
+          zip -X0 ../book.epub mimetype
+          zip -Xr9D ../book.epub META-INF OEBPS
+
+      - name: Upload EPUB artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: epub
+          path: book.epub
