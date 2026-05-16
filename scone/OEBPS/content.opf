@@ -5,10 +5,11 @@
          unique-identifier="BookId">
 
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:identifier id="BookId">bubblebook-app</dc:identifier>
+    <dc:identifier id="BookId">urn:uuid:bubblebook-app</dc:identifier>
     <dc:title>Bubblebook</dc:title>
     <dc:language>en</dc:language>
-    <dc:creator>PeerPlay Expirements</dc:creator>
+    <dc:creator id="creator1">PeerPlay Experiments</dc:creator>
+<meta refines="#creator1" property="role" scheme="marc:relators">aut</meta>
   </metadata>
 
   <manifest>
