@@ -6,7 +6,7 @@ You can find the source code in the /scone/ folder. (it was supposed to be /scod
 |------------|-----|------------|
 | Apple iBooks      | No  | Book appears in library with no author, throws an error when you open it.   |
 | Kobo Books (App)        | Partial  | Book opens fine, buttons are unable to be clicked.|
-| Kobo Clara BW | Untested | Will test later |
+| Kobo Clara BW | Partial | Bubbles appear as words instead of buttons, henceforth cannot be clicked. |
 | Kindle (App) | Untested | |
 | Kindle Paperwrite | Untested | |
 | [Flow](https://app.flowoss.com) | Full | Book opens and functions as intended |
