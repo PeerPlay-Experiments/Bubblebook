@@ -9,4 +9,4 @@ You can find the source code in the /scone/ folder. (it was supposed to be /scod
 | Kobo Clara BW | Untested | Will test later |
 | Kindle (App) | Untested | |
 | Kindle Paperwrite | Untested | |
-| [Flow](app.flowoss.com) | Untested | Will test later |
+| [Flow](https://app.flowoss.com) | Untested | Will test later |
