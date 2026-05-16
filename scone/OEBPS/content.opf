@@ -23,7 +23,6 @@
   </manifest>
 
   <spine>
-    <itemref idref="toc"/>
     <itemref idref="chapter1"/>
   </spine>
 
