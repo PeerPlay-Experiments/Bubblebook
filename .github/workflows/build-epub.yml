@@ -11,7 +11,7 @@ jobs:
 
       - name: Create EPUB
         run: |
-          cd book
+          cd scone
           zip -X0 ../book.epub mimetype
           zip -Xr9D ../book.epub META-INF OEBPS
 
