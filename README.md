@@ -9,4 +9,6 @@ You can find the source code in the /scone/ folder. (it was supposed to be /scod
 | Kobo Clara BW | Untested | Will test later |
 | Kindle (App) | Untested | |
 | Kindle Paperwrite | Untested | |
-| [Flow](https://app.flowoss.com) | Untested | Will test later |
+| [Flow](https://app.flowoss.com) | Full | Book opens and functions as intended |
+| [ePubReader.net](https://www.epubreader.net) | Partial | Book opens, buttons cannot be clicked |
+| [EPUB READER](https://www.epub-reader.online) | Full | Book opens and functions as intended |
